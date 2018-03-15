@@ -37,7 +37,7 @@ public class ShipRepository implements Repository<Ship>{
     /**
      * Get all the ships that are of a suitable type.
      * @param types - array list of strings representing ship types that we are searching for
-     * @return - list of ships that are of one of the given types
+     * @return  list of ships that are of one of the given types
      */
     public List<Ship> getAllByTypeArray(ArrayList<String> types){
         ArrayList<Ship> filteredShips = new ArrayList<>();
